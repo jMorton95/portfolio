@@ -8,6 +8,10 @@
   line-height: 1.5;
 }
 
+#root {
+  min-height: 100vh;
+}
+
 body {
   margin: 0;
   display: flex;
