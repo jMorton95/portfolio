@@ -3,9 +3,11 @@ import { Outlet } from "react-router";
 export default function Layout() {
   return (
     <>
-      <nav className="">Nav</nav>
+      <nav className="">
+        <div>Josh M Portfolio -- Under Construction</div>
+      </nav>
       <Outlet />
-      <footer>Footer</footer>
+      <footer></footer>
     </>
     
   )
