@@ -4,7 +4,7 @@ import Projects from './pages/projects/Projects'
 
 export default function App() {
 
-  const varToForceBundle = 'hi';
+  const varToForceBundle = 'hello';
 
   return (
     <BrowserRouter>
