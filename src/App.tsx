@@ -3,9 +3,6 @@ import Layout from './pages/Layout'
 import Projects from './pages/projects/Projects'
 
 export default function App() {
-
-  const varToForceBundle = 'hello';
-
   return (
     <BrowserRouter>
       <Routes>
