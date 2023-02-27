@@ -9,7 +9,6 @@ lerna-debug.log*
 
 node_modules
 *.local
-/gh-deploy.sh
 dist
 # Editor directories and files
 .vscode/*
