@@ -38,9 +38,9 @@ const changeTheme = (themeElement: HTMLElement, theme: string) => {
 
 const setStartupTheme = () => {
   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    localStorageRef.theme = themeOptions.light;
-  } else {
     localStorageRef.theme = themeOptions.dark;
+  } else {
+    localStorageRef.theme = themeOptions.light;
   }
   document.body.classList.value = localStorageRef.theme;
   metaColorScheme?.setAttribute("content", localStorageRef.theme);
