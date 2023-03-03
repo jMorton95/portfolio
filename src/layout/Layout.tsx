@@ -4,8 +4,8 @@ import Nav from "./components/Nav";
 
 export default function Layout() {
   return (
-    <div className="bg-white transition duration-700 dark:bg-grey-dark dark:text-white">
-      <div className="main-container py-4">
+    <div className="h-full bg-white transition duration-700 dark:bg-grey-dark dark:text-white">
+      <div className="main-container pt-6 pb-4">
         <Nav />
         <main className="my-auto container mx-auto">
           <Outlet />
