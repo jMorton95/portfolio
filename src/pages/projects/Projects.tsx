@@ -1,15 +1,12 @@
-import data from '../../repository/projects.json';
-import { Project } from '../../types/Types';
+import projectData from '../../repository/projects.json';
+import { TProject } from '../../types/Types';
+import Project from './components/Project';
 
 export default function Projects() {
-  const datas: Project[] = data; 
-  datas.forEach(dat => {
-    console.log(dat.name);
-  })
+  const projectProps: TProject[] = projectData;
   return (
-    <section className="projects">Projects Page
-      <div className="border-t border-white"></div>
-      <div className="border-t border-white"></div>
-    </section>
+    <div className="projects">
+    {projectProps.length > 0 && projectProps.map(project => <Project key={project.id} {...project}/>)}
+    </div>
   )
 }

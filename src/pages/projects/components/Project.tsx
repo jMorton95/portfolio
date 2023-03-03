@@ -1,8 +1,9 @@
-import { Project } from "../../../types/Types";
+import { TProject } from "../../../types/Types";
 
-export default function Project(props: Project) {
+export default function Project(props: TProject) {
   return (
-    <div>
-    </div>
+    <section>
+      {props.name}
+    </section>
   )
 };
