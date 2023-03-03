@@ -7,10 +7,7 @@ const localStorageRef = window.localStorage;
 
 const metaColorScheme = document.querySelector('meta[name="color-scheme"]');
 
-const toggleTheme = (
-  themeElement: HTMLElement,
-  e: React.MouseEvent<HTMLButtonElement, MouseEvent>
-) => {
+const toggleTheme = (themeElement: HTMLElement, e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
   if (themeElement.classList.contains(themeOptions.dark)) {
     changeTheme(themeElement, themeOptions.light);
   } else {
@@ -22,9 +19,7 @@ const toggleTheme = (
   setEventTargetThemeClass(e);
 };
 
-const setEventTargetThemeClass = (
-  e: React.MouseEvent<HTMLButtonElement, MouseEvent>
-) => {
+const setEventTargetThemeClass = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
   if (!(e.target instanceof Element)) return;
 
   for (let theme in themeOptions) {

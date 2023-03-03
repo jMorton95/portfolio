@@ -9,21 +9,25 @@ export default function Nav() {
   })
 
   return (
-    <nav className="flex flex-row justify-between">
-          <div className="hidden md:block">Joshua Morton</div>
-          <div className="flex gap-6">
-            <NavLink to="/">Projects</NavLink>
-            <NavLink to="/about-me">About Me</NavLink>
-          </div>
-          <button
-            id="themeToggle"
-            title="Toggle Theme"
-            className="themeToggleBtn self-start border-2 rounded-full h-10 w-10 border-grey-dark dark:border-emerald-50"
-            type="button"
-            onClick={(e) => toggleTheme(document.body, e)}
-          >
-            <span className="h-full block duration-2000 rounded-full w-full border-r-12 dark:border-r-4 border-grey-dark dark:border-emerald-50"></span>
-          </button>
-        </nav>
+    <nav className="container mx-auto flex flex-row justify-between">
+      <div className="hidden md:block">Joshua Morton</div>
+      <ul className="flex gap-6 max-h-fit">
+        <li>
+          <NavLink to="/">Projects</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about-me">About Me</NavLink>
+        </li>
+      </ul>
+      <button
+        id="themeToggle"
+        title="Toggle Theme"
+        className="themeToggleBtn self-start border-2 rounded-full h-10 w-10 border-grey-dark dark:border-white"
+        type="button"
+        onClick={(e) => toggleTheme(document.body, e)}
+      >
+        <span className="h-full block duration-2000 rounded-full w-full border-r-12 dark:border-r-4 border-grey-dark dark:border-white"></span>
+      </button>
+    </nav>
   )
 };

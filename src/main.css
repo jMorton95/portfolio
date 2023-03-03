@@ -8,18 +8,17 @@
   line-height: 1.5;
   font-size: 18px;
   font-weight: 500;
-  --bg-gray: #1f2028;
 }
 
 #root {
-  min-height: 100vh;
+  min-width: 100vw;
 }
 
 body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 100vw;
   min-height: 100vh;
 }
 
@@ -41,3 +40,12 @@ body {
  margin-left: 4px;
 }
 
+.main-container {
+  display: grid;
+  grid-template-rows: 60px 1fr 60px;
+}
+
+.projects div {
+  height: 400px;
+  width: 100%;
+}
