@@ -6,7 +6,8 @@
   all:unset;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 500;
   --bg-gray: #1f2028;
 }
 
@@ -20,10 +21,21 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  
 }
 
 .themeToggleBtn {
   transition: 1s all;
+}
+
+.themeToggleBtn span {
+  pointer-events: none;
+}
+
+.themeToggleBtn.dark {
+  transform: rotate(180deg);
+}
+.themeToggleBtn.dark span {
+ transform: scale(1.5);
+ margin-left: 4px;
 }
 

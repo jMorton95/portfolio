@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import AboutMe from './pages/aboutMe/AboutMe'
-import Layout from './pages/Layout'
+import Layout from './layout/Layout'
 import Projects from './pages/projects/Projects'
 import { setStartupTheme } from './services/ThemeService';
 
