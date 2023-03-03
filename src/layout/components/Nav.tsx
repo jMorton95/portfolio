@@ -18,7 +18,7 @@ export default function Nav() {
           <button
             id="themeToggle"
             title="Toggle Theme"
-            className="themeToggleBtn self-start border rounded-full h-10 w-10 border-grey-dark dark:border-emerald-50"
+            className="themeToggleBtn self-start border-2 rounded-full h-10 w-10 border-grey-dark dark:border-emerald-50"
             type="button"
             onClick={(e) => toggleTheme(document.body, e)}
           >
