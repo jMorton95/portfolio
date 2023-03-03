@@ -1,7 +1,13 @@
+import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import { toggleTheme } from "../../services/ThemeService";
+import {toggleTheme } from "../../services/ThemeService";
 
 export default function Nav() {
+
+  useEffect(() => {
+    document.getElementById("themeToggle")?.classList.add(localStorage.theme);
+  })
+
   return (
     <nav className="flex flex-row justify-between">
           <div className="hidden md:block">Joshua Morton</div>
@@ -10,6 +16,7 @@ export default function Nav() {
             <NavLink to="/about-me">About Me</NavLink>
           </div>
           <button
+            id="themeToggle"
             title="Toggle Theme"
             className="themeToggleBtn self-start border rounded-full h-10 w-10 border-grey-dark dark:border-emerald-50"
             type="button"
