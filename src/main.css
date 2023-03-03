@@ -24,7 +24,8 @@ body {
 }
 
 .themeToggleBtn {
-  transition: 1s all;
+  transition: 1s ease all;
+  user-select: none;
 }
 
 .themeToggleBtn span {
@@ -32,8 +33,9 @@ body {
 }
 
 .themeToggleBtn.dark {
-  transform: rotate(180deg);
+  transform: rotate(210deg);
 }
+
 .themeToggleBtn.dark span {
  transform: scale(1.5);
  margin-left: 4px;

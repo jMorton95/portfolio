@@ -4,7 +4,7 @@ import { toggleTheme } from "../../services/ThemeService";
 export default function Nav() {
   return (
     <nav className="flex flex-row justify-between">
-          <div className="">Joshua Morton</div>
+          <div className="hidden md:block">Joshua Morton</div>
           <div className="flex gap-6">
             <NavLink to="/">Projects</NavLink>
             <NavLink to="/about-me">About Me</NavLink>
@@ -15,9 +15,7 @@ export default function Nav() {
             type="button"
             onClick={(e) => toggleTheme(document.body, e)}
           >
-            <span className="h-full block rounded-full w-full border-r-8 dark:border-r-4 border-grey-dark dark:border-emerald-50">
-              
-            </span>
+            <span className="h-full block duration-2000 rounded-full w-full border-r-12 dark:border-r-4 border-grey-dark dark:border-emerald-50"></span>
           </button>
         </nav>
   )

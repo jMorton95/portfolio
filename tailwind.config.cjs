@@ -5,8 +5,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors : {
+      colors: {
         'grey-dark': '#1f2028'
+      },
+      borderWidth: {
+        '12': '12px',
+        '16': '16px'
+      },
+      transitionDuration: {
+        '2000': '2000ms',
       }
     },
      container: {
