@@ -1,5 +1,5 @@
 export default function Projects() {
   return (
-    <main></main>
+    <main>Projects Page</main>
   )
 }

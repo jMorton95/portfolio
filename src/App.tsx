@@ -1,4 +1,5 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import AboutMe from './pages/aboutMe/AboutMe'
 import Layout from './pages/Layout'
 import Projects from './pages/projects/Projects'
 
@@ -8,6 +9,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Projects />} />
+          <Route path="about-me" element={<AboutMe />} />
         </Route>
       </Routes>
     </BrowserRouter>
