@@ -23,9 +23,7 @@ body {
   
 }
 
-/* @media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--bg-gray);
-    color: #ffffff;
-  }
-} */
+.themeToggleBtn {
+  transition: 1s all;
+}
+
