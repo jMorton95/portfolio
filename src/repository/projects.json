@@ -1,0 +1,29 @@
+[
+  {
+    "name": "manning",
+    "description": "big board yo",
+    "keypoints": [
+      "one",
+      "two"
+    ],
+    "url": "https://github.com/jmorton95/manning-board"
+  },
+   {
+    "name": "manning1",
+    "description": "big board yo",
+    "keypoints": [
+      "one",
+      "two"
+    ],
+    "url": "https://github.com/jmorton95/manning-board"
+  },
+   {
+    "name": "manning2",
+    "description": "big board yo",
+    "keypoints": [
+      "one",
+      "two"
+    ],
+    "url": "https://github.com/jmorton95/manning-board"
+  }
+]
