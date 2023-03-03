@@ -10,14 +10,6 @@
   margin: 0;
 }
 
-* {
-  -webkit-tap-highlight-color: transparent;
-}
-
-a:focus,a:visited,a:active, button:focus, button:active{
-  outline: none;
-}
-
 body {
   margin: 0;
   display: flex;
