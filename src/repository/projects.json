@@ -8,6 +8,12 @@
       "Two",
       "Three"
     ],
+    "logos": [
+      "/public/techlogos/dotnet.svg",
+      "incorrect data",
+      "/public/techlogos/javascript.svg",
+      "invalid value"
+    ],
     "url": "https://github.com/jmorton95/manningboard"
   },
    {
@@ -19,6 +25,9 @@
       "Two",
       "Three"
     ],
+    "logos": [
+      "/public/techlogos/dotnet.svg", "/public/techlogos/javascript.svg"
+    ],
     "url": "https://github.com/jmorton95/manningboard"
   },
    {
@@ -29,6 +38,9 @@
       "One",
       "Two",
       "Three"
+    ],
+    "logos": [
+      "/public/techlogos/dotnet.svg", "/public/techlogos/javascript.svg"
     ],
     "url": "https://github.com/jmorton95/manningboard"
   }

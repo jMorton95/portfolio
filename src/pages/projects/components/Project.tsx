@@ -1,6 +1,8 @@
-import { TProject } from "../../../types/Types";
+import { filterArrayAgainstEnum } from "../../../services/ProjectsDataService";
+import { ETechLogosPaths, TProject } from "../../../types/Types";
 
 export default function Project(props: TProject) {
+  const validLogos = filterArrayAgainstEnum(ETechLogosPaths, props.logos );
   return (
     <section className="py-6">
       <h3>
@@ -13,6 +15,7 @@ export default function Project(props: TProject) {
         {props.description}
       </p>
       <a href={props.url}>Repo</a>
+      {validLogos && validLogos.map(logo => <p>{logo}</p>)}
     </section>
   )
 };
