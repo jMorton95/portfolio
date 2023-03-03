@@ -2,7 +2,7 @@ import { TProject } from "../../../types/Types";
 
 export default function Project(props: TProject) {
   return (
-    <section>
+    <section className="py-6">
       <h3>
         {props.name}
       </h3>
