@@ -4,10 +4,10 @@
     "name": "Portfolio",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
     "keypoints": [
-      "One",
-      "Two",
-      "Three",
-      "jade is a penguin"
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     ],
     "logos": [
       "incorrect data",
@@ -24,9 +24,10 @@
     "name": "Project Two",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
     "keypoints": [
-      "One",
-      "Two",
-      "Three"
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     ],
     "logos": [
       "dotnet.svg", "javascript.svg"
@@ -38,9 +39,10 @@
     "name": "Project Three",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
     "keypoints": [
-      "One",
-      "Two",
-      "Three"
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     ],
     "logos": [
       "dotnet.svg", "javascript.svg"
@@ -52,9 +54,10 @@
    "name": "Project Three",
    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
    "keypoints": [
-     "One",
-     "Two",
-     "Three"
+    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
    ],
    "logos": [
      "dotnet.svg", "javascript.svg"

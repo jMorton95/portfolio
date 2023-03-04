@@ -5,9 +5,10 @@ import ProjectTopSection from "./ProjectTopSection";
 export default function Project(props: TProject) {
   const validLogos = filterArrayAgainstEnum(ETechLogos, props.logos);
   const alignment = (props.id % 2 === 0) ? "right" : "left";
+  
   return (
     <section className="py-6">
-      <h3>
+      <h3 className="font-bold border-b-2 w-fit">
         {props.name}
       </h3>
      <ProjectTopSection alignment={alignment} keypoints={props.keypoints} logos={validLogos} />
