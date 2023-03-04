@@ -12,7 +12,7 @@ export default function ProjectTopSection(props: TProjectTopSectionProps) {
       <ul className="techLogos flex flex-row flex-wrap">
         {props.logos && props.logos.map((logo, index) => 
         <li className="pb-8">
-          <img className="w-24 max-md:w-16 max-sm:w-12 h-24 max-md:h-16 max-sm:h-12" title={logo} src={"/public/techlogos/" + logo}key={index}/>
+          <img className="w-24 max-md:w-16 max-sm:w-12 h-24 max-md:h-16 max-sm:h-12" title={logo} src={"/techlogos/" + logo}key={index}/>
         </li>
         )}
       </ul>

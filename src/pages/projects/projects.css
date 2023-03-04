@@ -29,32 +29,3 @@
   content: '✓';
   padding-right: 8px;
 }
-
-
-
-
-
-
-/* .techLogos {
-  grid-template-columns: repeat(auto-fill, 96px);
-}
-
-@media (max-width: 640px) {
-  .techLogos {
-    grid-template-columns: repeat(2, max(36px, 1fr));
-  }
-} */
-
-/* .techLogos img { */
-  /* height: clamp(36px, calc(36px + 4vw), 96px);
-  width: clamp(36px, calc(36px + 4vw), 96px); */
-  /* height: 96px;
-  width: 96px;
-}
-
-@media (max-width: 425px) {
-  .techLogos img {
-    height: 54px;
-    width: 54px;
-  }
-} */
