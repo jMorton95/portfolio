@@ -19,4 +19,3 @@ export default function Project(props: TProject) {
     </section>
   )
 };
-
