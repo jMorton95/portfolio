@@ -12,19 +12,28 @@
 }
 
 .techLogos {
+  max-width: 400px;
+}
+
+.techLogos li {
+  flex: 1 1 130px;
+}
+
+/* .techLogos {
   grid-template-columns: repeat(auto-fill, 96px);
-  /* grid-auto-columns: minmax(36px, auto); */
 }
 
 @media (max-width: 640px) {
   .techLogos {
     grid-template-columns: repeat(2, max(36px, 1fr));
   }
-}
+} */
 
 .techLogos img {
   height: clamp(36px, calc(36px + 4vw), 96px);
   width: clamp(36px, calc(36px + 4vw), 96px);
+  /* height: 96px;
+  width: 96px; */
 }
 
 .keypoints li:before { 

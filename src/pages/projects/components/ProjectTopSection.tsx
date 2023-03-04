@@ -9,7 +9,7 @@ export default function ProjectTopSection(props: TProjectTopSectionProps) {
           <li className="list-none" key={index}>{point}</li>
         )}
       </ul>
-      <ul className="techLogos px-4 grid gap-2 w-fit max-sm:grid-cols-2">
+      <ul className="techLogos px-4 flex flex-row flex-wrap">
         {props.logos && props.logos.map((logo, index) => 
         <li className="">
           <img className="" title={logo} src={"/public/techlogos/" + logo}key={index}/>
