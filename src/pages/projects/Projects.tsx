@@ -5,7 +5,6 @@ import './projects.css';
 
 export default function Projects() {
   const projectProps: TProject[] = projectData;
-  console.log(projectProps);
   return (
     <div className="projects">
     {projectProps.length > 0 && projectProps.map(project => <Project key={project.id} {...project}/>)}
