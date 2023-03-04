@@ -23,7 +23,7 @@ module.exports = {
         lg: '0rem',
         xl: '0rem',
         '2xl': '6rem',
-      },
+      }
     },
   },
   plugins: [],

@@ -45,7 +45,7 @@
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     ],
     "logos": [
-      "dotnet.svg", "javascript.svg"
+      "dotnet.svg", "javascript.svg", "dotnet.svg"
     ],
     "url": "https://github.com/jmorton95/manningboard"
   },
