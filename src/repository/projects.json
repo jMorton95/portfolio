@@ -1,18 +1,21 @@
 [
   {
     "id": 1,
-    "name": "Project One",
+    "name": "Portfolio",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
     "keypoints": [
       "One",
       "Two",
-      "Three"
+      "Three",
+      "jade is a penguin"
     ],
     "logos": [
-      "/public/techlogos/dotnet.svg",
       "incorrect data",
-      "/public/techlogos/javascript.svg",
-      "invalid value"
+      "typescript.svg",
+      "invalid value",
+      "vite.svg",
+      "tailwind.svg",
+      "react.svg"
     ],
     "url": "https://github.com/jmorton95/manningboard"
   },
@@ -26,7 +29,7 @@
       "Three"
     ],
     "logos": [
-      "/public/techlogos/dotnet.svg", "/public/techlogos/javascript.svg"
+      "dotnet.svg", "javascript.svg"
     ],
     "url": "https://github.com/jmorton95/manningboard"
   },
@@ -40,8 +43,22 @@
       "Three"
     ],
     "logos": [
-      "/public/techlogos/dotnet.svg", "/public/techlogos/javascript.svg"
+      "dotnet.svg", "javascript.svg"
     ],
     "url": "https://github.com/jmorton95/manningboard"
-  }
+  },
+  {
+   "id": 4,
+   "name": "Project Three",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+   "keypoints": [
+     "One",
+     "Two",
+     "Three"
+   ],
+   "logos": [
+     "dotnet.svg", "javascript.svg"
+   ],
+   "url": "https://github.com/jmorton95/manningboard"
+ }
 ]

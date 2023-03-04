@@ -1,2 +1,12 @@
-.projects section {
+.projectsTopSection.right ul {
+  order: 1;
+}
+.projectsTopSection.right .techLogos {
+  order: 2;
+}
+.projectsTopSection.left ul {
+  order: 2;
+}
+.projectsTopSection.left .techLogos {
+  order: 1;
 }
