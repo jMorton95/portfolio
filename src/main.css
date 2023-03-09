@@ -30,6 +30,7 @@ body {
 
 .themeToggleBtn {
   transition: 1s ease all;
+  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -39,6 +40,10 @@ body {
 
 .themeToggleBtn.dark:hover {
   background-color: rgba(255, 255, 255, 0.5);
+
+  & span {
+    background-color: red;
+  }
 }
 
 .themeToggleBtn span {
@@ -57,6 +62,10 @@ body {
 .main-container {
   display: grid;
   grid-template-rows: 60px 1fr 60px;
+}
+
+.testcolor {
+  background-color: linear-gradient(to top, rgba(31,32,40,1) 0%, rgba(47,45,59,1) 20%) !important;
 }
 
 

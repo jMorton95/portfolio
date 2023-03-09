@@ -6,7 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'grey-dark': '#1f2028'
+        'grey-dark-000': '#14151a',
+        'grey-dark-100': '#1f2028',
+        'grey-dark-200': '#35363d',
+        'light-100': '#e8e8e9',
+        'light-200': '#d2d2d4',
+        'light-300': '#bbbcbe',
       },
       borderWidth: {
         '12': '12px',
