@@ -32,31 +32,28 @@ body {
   transition: 1s ease all;
   -webkit-user-select: none;
   user-select: none;
-}
 
-.themeToggleBtn.light:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-}
+  &.dark {
+    transform: rotate(210deg);
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
 
-.themeToggleBtn.dark:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-
-  & span {
-    background-color: red;
+    span {
+      transform: scale(1.5);
+      margin-left: 4px;
+    }
   }
-}
 
-.themeToggleBtn span {
-  pointer-events: none;
-}
+  &.light {
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
 
-.themeToggleBtn.dark {
-  transform: rotate(210deg);
-}
-
-.themeToggleBtn.dark span {
- transform: scale(1.5);
- margin-left: 4px;
+  span {
+    pointer-events: none;
+  }
 }
 
 .main-container {
