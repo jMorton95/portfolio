@@ -1,7 +1,6 @@
 rm -rf dist
 
 npm run build
-powershell -Command "Copy-Item -Path "\CNAME" -Destination "\Dist""
 
 git checkout gh-pages
 
